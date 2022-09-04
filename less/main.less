@@ -140,8 +140,15 @@ body {
     }
 }
 
-.central {
+.full {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: @margem-media 0;
+}
+
+.central {
+    display: inherit;
     align-items: center;
     justify-content: center;
     width: @total;
@@ -166,6 +173,10 @@ body {
 
 #saiba-mais {
     .content {
+
+        align-items: flex-start;
+        margin: @margem-grande 0;
+
         h1 {
             font-weight: lighter;
         }
@@ -214,14 +225,48 @@ body {
 
 .content {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    margin: @margem-grande 0;
 
     .title,
     .subtitle {
+        align-items: center;
         margin: 0;
         padding: 0;
+    }
+}
+
+
+#funcionamento {
+    .dark-blue {
+        font-weight: bolder;
+        color: #1A8199;
+    }
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    .item {
+        width: fit-content;
+        display: inherit;
+        align-items: center;
+        flex-direction: column;
+        margin: @margem-minima @margem-media;
+
+        .how {
+            margin: @margem-media 0;
+            max-width: @diametro;
+        }
+
+        .description {
+            color: @cores-escuro;
+            font-size: 1.6em;
+            font-weight: bold;
+            max-width: fit-content;
+            text-align: center;
+        }
     }
 }
