@@ -30,7 +30,7 @@ O Ocean Shot é um **WebApp** que facilita a identificação de vidas marinhas. 
 Nós buscamos desenvolver o aplicativo da forma mais **intuitiva e acessível** possível, sendo extremamente **auto-explicativo e de fácil manuseio**. Utilizando a mais recente tecnologia de **reconhecimento de padrões**, conseguimos de forma rápida e precisa fazer a distinção de espécies, identificando também cada tartaruga individualmente, e seus respectivos dados cadastrados.
 
 ------------------------------------------------------------------------------------------------
-## Como Funciona? 
+## **_Como Funciona?_** 
 > **1º Fotografia**
 	- Você tira uma foto do animal avistado e faz o upload do arquivo. Assim, o animal será identificado e você saberá seu nome, por onde ele nadou e data das aparições. 
 
