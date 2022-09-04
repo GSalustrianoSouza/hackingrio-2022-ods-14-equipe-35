@@ -8,6 +8,7 @@
 @cores-turquesa: #6FCBDC;
 @cores-escuro: #4C4C4C;
 @cores-prata: #F0F0F2;
+@cores-fundo: #FAFAFA;
 
 //=================================================================> Margens
 @margem-minima: 10px;
@@ -50,6 +51,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Poppins;
+    background: @cores-fundo;
 }
 
 ::selection {
@@ -65,6 +67,10 @@ body {
 
     &.white {
         filter: contrast(0) brightness(99);
+    }
+
+    &.big {
+        max-width: 400px;
     }
 }
 
@@ -231,17 +237,20 @@ body {
     .title,
     .subtitle {
         align-items: center;
+        text-align: center;
         margin: 0;
         padding: 0;
     }
 }
 
 
-#funcionamento {
-    .dark-blue {
-        font-weight: bolder;
-        color: #1A8199;
-    }
+.dark-blue {
+    font-weight: bolder;
+    color: #1A8199;
+}
+
+.sand {
+    color: @cores-areia;
 }
 
 .cards {
@@ -270,3 +279,51 @@ body {
         }
     }
 }
+
+.rastreado {
+    border-radius: 10px;
+    margin: 0 @margem-media;
+    width: fit-content;
+    position: relative;
+
+    img {
+        border-radius: inherit;
+    }
+
+    .description {
+        color: white;
+        position: absolute;
+        bottom: @margem-grande;
+        margin: 0 @margem-media;
+        font-weight: bolder !important;
+
+        .title,
+        .subtitle {
+            text-align: left;
+            text-shadow: 2px 2px 1px #0000005c;
+        }
+    }
+}
+
+#acompanhar {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: @cores-escuro;
+}
+
+#sobre {
+    text-align: left;
+    align-items: flex-start;
+
+    .title {
+        font-size: 2rem;
+    }
+
+    #texto {
+        text-align: justify;
+        color: @cores-escuro;
+        max-width: 400px;
+    }
+}
+
+footer {}
