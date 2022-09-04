@@ -1,0 +1,227 @@
+//__________________________VARIÁVEIS__________________________
+
+//=================================================================> Cores
+@cores-areia: #FED686;
+@cores-areia-marrom: #94722F;
+@cores-azul-fundo: #1A8199;
+@cores-azul-raso: #6FCBDC;
+@cores-turquesa: #6FCBDC;
+@cores-escuro: #4C4C4C;
+@cores-prata: #F0F0F2;
+
+//=================================================================> Margens
+@margem-minima: 10px;
+@margem-pequena: 20px;
+@margem-media: 30px;
+@margem-grande: 40px;
+@margem-maxima: 50px;
+
+//=================================================================> Diametro
+@diametro: 230px;
+@raio: @diametro;
+
+//=================================================================> Sombras
+@sombra-curta: 2px 2px 2px -2px #0000003c;
+@sombra-padrao: 5px 5px 5px -5px #0000003c;
+@sombra-longa: 10px 10px 10px -10px #0000003c;
+
+//=================================================================> Larguras
+@total: 100%;
+@central: 1200px;
+
+//__________________________GLOBAIS__________________________
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    transition: all .15s;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: auto;
+    width: @total;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+::selection {
+    background-color: @cores-azul-raso;
+    color: @cores-azul-fundo;
+}
+
+//__________________________NAVBAR__________________________
+
+
+.logo {
+    max-width: 220px;
+
+    &.white {
+        filter: contrast(0) brightness(99);
+    }
+}
+
+.button {
+    @raio: 5px;
+    color: @cores-areia-marrom;
+    background-color: @cores-areia;
+    padding: @margem-minima @margem-pequena;
+    width: fit-content;
+    font-weight: bolder;
+    box-shadow: @sombra-curta;
+    border-radius: @raio;
+
+    &:hover {
+        background-color: white;
+        color: @cores-azul-fundo;
+    }
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: @total;
+    height: 100vh;
+    flex-direction: column;
+    padding: @margem-pequena @margem-maxima;
+    background-image: linear-gradient(#000000bc 0%, transparent 15%);
+
+    .navbar {
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        width: inherit;
+
+        .menu {
+            display: inherit;
+            justify-content: center;
+            align-items: inherit;
+            width: inherit;
+            font-weight: bolder;
+
+            .item {
+                color: white;
+                font-size: 1.2rem;
+                margin: 0 @margem-pequena;
+                padding: @margem-minima 0;
+                border-bottom: 3px inset transparent;
+
+                &.active {
+                    border-bottom: 3px inset @cores-areia  !important;
+                }
+
+                &:hover {
+                    border-bottom: 3px inset @cores-prata;
+                }
+            }
+        }
+
+
+    }
+
+    .hero {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        top: 0;
+        position: absolute;
+        width: @total;
+        height: 100vh;
+        z-index: -1;
+    }
+}
+
+.central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: @total;
+    max-width: @central;
+}
+
+#banner {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: @margem-media;
+    height: 100%;
+    position: relative;
+
+    .item {
+        flex: 1;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+}
+
+#saiba-mais {
+    .content {
+        h1 {
+            font-weight: lighter;
+        }
+    }
+}
+
+#informativo {
+    right: @margem-maxima;
+    bottom: 150px;
+    align-items: center;
+
+    span.data {
+        color: inherit;
+        display: inherit;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.2rem;
+        margin: @margem-minima;
+        width: @diametro;
+        height: @diametro;
+        border-radius: @raio;
+        border: 12px solid @cores-areia;
+    }
+
+    label.data {
+        font-size: 1.3rem;
+        color: inherit;
+    }
+}
+
+.subtitle {
+    @size: 1.2rem;
+    font-weight: lighter;
+    font-size: @size;
+    line-height: calc(@size*1.5);
+
+}
+
+.title {
+    @size: 3.2rem;
+    font-size: @size;
+    line-height: calc(@size*1.2);
+    font-weight: normal;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: @margem-grande 0;
+
+    .title,
+    .subtitle {
+        margin: 0;
+        padding: 0;
+    }
+}
