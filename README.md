@@ -27,7 +27,73 @@ O Ocean Shot é um **WebApp** que facilita a identificação de vidas marinhas. 
 
 ### ✔️ **Informações adicionais** 
 
-Nós buscamos desenvolver o aplicativo da forma mais intuitiva e acessível possível, sendo extremamente auto-explicativo e de fácil manuseio.
+Nós buscamos desenvolver o aplicativo da forma mais **intuitiva e acessível** possível, sendo extremamente **auto-explicativo e de fácil manuseio**. Utilizando a mais recente tecnologia de **reconhecimento de padrões**, conseguimos de forma rápida e precisa fazer a distinção de espécies, identificando também cada tartaruga individualmente, e seus respectivos dados cadastrados.
+
+------------------------------------------------------------------------------------------------
+## Como Funciona? 
+> **1º Fotografia**
+	- Você tira uma foto do animal avistado e faz o upload do arquivo. Assim, o animal será identificado e você saberá seu nome, por onde ele nadou e data das aparições. 
+
+> **2º Registro** 
+	- Se o animal ainda não estiver registrado em nossa base de dados, você poderá registrá-lo e dar um nome a ele! 
+
+> **3º Levantamento oceânico** 
+	- Você também pode acompanhar os animais que estão próximos a você pode meio de um radar de localização. 
+
+<br>
+
+## **_Quem nós somos?_**
+	
+ ### **José Roberto**<br>
+ ✅ *Desenvolvedor Full-Stack Jr*<br>
+ ☎️ Contatos:<br>
+
+ <div>
+  <a href = "mailto:profissional.roberto.rj@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/jose-roberto-dev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://wa.me/5521997294566"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
+  <a href="https://github.com/dev-jose-roberto"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+  <a href="https://www.instagram.com/josee.nt/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" target="_blank"></a>
+</div>
+
+_"Paciência, disciplina e execução são a chave do mérito."_<br><br>
+
+ ### **Gabriel Salustriano**<br>
+ ✅ *Desenvolvedor Full-Stack Jr*<br>
+ ☎️ Contatos:<br>
+
+<div>
+  <a href = "mailto:gabrielsalustriano5566@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/gabrielsalustriano/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://github.com/GSalustrianoSouza/"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+  <a href="https://www.instagram.com/sollix_tw/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" target="_blank"></a>
+</div>
+
+ _"A vida não é um jogo de sorte. Se você quer vencer, trabalhe duro."_<br><br>
+
+ ### **Erick Contrera**<br>
+ ✅ *Diretor de Arte*<br>
+ ☎️ Contatos:<br>
+ 
+<div>
+  <a href="https://www.linkedin.com/in/eccontrera/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://www.eccontrera.me/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" target="_blank"></a>
+</div>
+
+ 📃 Mensagem<br><br>
+
+ ### **Ariel**<br>
+ ✅ *UX/UI Designer*<br>
+ ☎️ Contatos:<br>
+ 
+<div>
+  <a href = "#"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="#" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
+
+ 📃 Mensagem<br>
+
+
 
 
 
