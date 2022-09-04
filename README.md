@@ -45,7 +45,7 @@ Nós buscamos desenvolver o aplicativo da forma mais **intuitiva e acessível** 
 ## Arquitetura base
 <img src="fluxograma.png">
 <br>
-<p>Arquitetura do sistema utilizando a técnologia o <strong>Amazon Rekognition</strong>.</p>
+<p>Arquitetura do sistema utilizando a tecnologia "<strong>Amazon Rekognition</strong>".</p>
 
 
 
