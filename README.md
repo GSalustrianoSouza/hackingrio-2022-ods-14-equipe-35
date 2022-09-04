@@ -101,7 +101,7 @@ _"Paciência, disciplina e execução são a chave do mérito."_<br><br>
   <a href="#" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
- 📃 Mensagem<br>
+  _"Com grandes poderes, grandes responsabilidades <br>- Tio Ben,  Homem-Aranha."_<br>
 
 
 
