@@ -100,7 +100,7 @@ _"Paciência, disciplina e execução são a chave do mérito."_<br><br>
   <a href = "mailto:ariellima2314@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="#" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
-  _"Com **grandes poderes** vêm **grandes responsabilidades** <br>- Stan Lee *(Tio Ben)*,  1922."_<br>
+  *"Com **grandes poderes** vêm **grandes responsabilidades** <br>- Stan Lee *(Tio Ben)*,  1922."*<br>
 
 
 
