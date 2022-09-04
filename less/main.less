@@ -9,6 +9,7 @@
 @cores-escuro: #4C4C4C;
 @cores-prata: #F0F0F2;
 @cores-fundo: #FAFAFA;
+@cores-cinza: #E5E5E5;
 
 //=================================================================> Margens
 @margem-minima: 10px;
@@ -326,4 +327,85 @@ body {
     }
 }
 
-footer {}
+footer {
+
+    height: 600px;
+    background: url(../img/fundo-do-mar.jpg) no-repeat bottom;
+    background-size: cover;
+    position: relative;
+
+    .central {
+        height: inherit !important;
+
+        &>.content {
+            justify-content: space-evenly !important;
+            height: inherit !important;
+
+            #att {
+                color: white;
+
+                .title {
+                    max-width: 500px;
+                    font-weight: bolder;
+                }
+
+                .subtitle {
+                    margin: @margem-minima 0;
+                }
+            }
+
+            .search {
+                background-color: @cores-prata;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 5px;
+                padding: 5px @margem-pequena;
+
+                #email {
+                    display: flex;
+                    padding: @margem-minima;
+                    border: none;
+                    background: none;
+                    height: 100%;
+                    outline: none;
+                    font-size: 1.6rem;
+                    color: @cores-escuro;
+                }
+
+                .button {
+                    height: fit-content;
+                }
+            }
+
+            #copyright {
+                display: inherit;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 1.4rem;
+                color: @cores-escuro;
+                background: @cores-cinza;
+                z-index: 2;
+                height: 100px;
+
+
+                * {
+                    margin: 0;
+                }
+            }
+        }
+
+        #final {
+            justify-content: center !important;
+            height: fit-content !important;
+
+            #ondas {
+                width: 100%;
+                height: 200px;
+                background: url(../img/bg.svg) no-repeat center center;
+                background-size: contain;            }
+        }
+    }
+}
